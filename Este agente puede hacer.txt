@@ -1,0 +1,20 @@
+Este agente puede hacer:
+El agente busca automáticamente en el documento y responde basándose en él
+Memoria Híbrida
+
+SQLite: Historial exacto, estadísticas, auditoría
+ChromaDB: Búsqueda semántica, RAG, conceptos similares
+
+Las herramientas son:
+Comandos disponibles:
+  /proponer        - El agente propone un tema
+  /resumen         - Ver resumen de conversación actual
+  /voz             - Toggle voz automática
+  /rag             - Toggle modo RAG (usar documentos)
+  /cargar <ruta>   - Cargar documento (txt/pdf)
+  /docs            - Ver documentos cargados
+  /historial       - Ver últimas sesiones
+  /buscar <texto>  - Búsqueda semántica en conversaciones
+  /stats           - Ver estadísticas generales
+  /reiniciar       - Nueva sesión
+  /salir           - Salir
